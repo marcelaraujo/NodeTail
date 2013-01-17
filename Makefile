@@ -9,17 +9,14 @@ all: clean build test
 
 build:
 	@echo "Building ${PROJECT}.....";
-	node-gyp clean
-	node-gyp configure
-	cp binding.gyp ${CWD}/build
-	node-gyp build
+	@./node_modules/.bin/node-gyp configure
+	@./node_modules/.bin/node-gyp build
 	
 test:
 	@echo "Testing ${PROJECT}.....";
 
 clean:
 	@echo "Cleaning ${PROJECT}.....";
-	node-gyp clean
-	rm -Rf build
+	@./node_modules/.bin/node-gyp clean
  
-.PHONY: clean compile
+.PHONY: clean build
