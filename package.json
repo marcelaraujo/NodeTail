@@ -1,7 +1,7 @@
 {
   "name": "nodetail",
   "description": "A porting of Tail command to NodeJS",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "homepage": "https://github.com/marcelaraujo/NodeTail",
   "author": {
     "name": "Marcel Araujo",

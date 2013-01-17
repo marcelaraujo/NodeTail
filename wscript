@@ -2,7 +2,7 @@ srcdir = "."
 blddir = "build"
 
 APPNAME = 'nodeTail'
-VERSION = "0.1.3"
+VERSION = "0.1.4"
 
 def set_options(opt):
     opt.tool_options("compiler_cxx")
