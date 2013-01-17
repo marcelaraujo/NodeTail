@@ -6,7 +6,7 @@
  * Licensed under the MIT license.
  */
  
-var Emitter = require(__dirname + '/../lib/nodeTail').Emitter;
+var Emitter = require(__dirname + '/../lib/nodeTail');
 
 var e = new Emitter();
 
