@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "nodeTail",
   "description": "A porting of Tail command to NodeJS",
   "version": "0.1.0",
@@ -26,10 +27,12 @@
     "node": ">= 0.6.0"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "make test",
+    "preinstall" : "npm install node-gyp -g",
+    "install": "make"
   },
   "devDependencies": {
-    "grunt": "~0.3.17"
+    "node-gyp": "*"
   },
   "keywords": ["tail", "watching", "files"]
 }
