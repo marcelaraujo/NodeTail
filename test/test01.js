@@ -1,3 +1,11 @@
+/*
+ * nodeTail
+ * https://github.com/marcelaraujo/NodeTail
+ *
+ * Copyright (c) 2013 Marcel Araujo
+ * Licensed under the MIT license.
+ */
+ 
 var Emitter = require(__dirname + '/../lib/nodeTail').Emitter;
 
 var e = new Emitter();

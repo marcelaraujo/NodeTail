@@ -1,3 +1,11 @@
+/*
+ * nodeTail
+ * https://github.com/marcelaraujo/NodeTail
+ *
+ * Copyright (c) 2013 Marcel Araujo
+ * Licensed under the MIT license.
+ */
+
 #include <v8.h>
 #include <node.h>
 #include <stdlib.h>
