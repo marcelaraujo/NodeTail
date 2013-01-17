@@ -33,5 +33,6 @@
   "devDependencies": {
     "node-gyp": "*"
   },
-  "keywords": ["tail", "watching", "files"]
+  "keywords": ["tail", "watching", "files"],
+  "preferGlobal": false
 }
