@@ -2,7 +2,7 @@
   "targets": [
     {
       "target_name": "nodetail",
-      "sources": [ "src/nodetail.cc" ]
+      "sources": [ "src/Tail.cc" ]
     }
   ]
 }
